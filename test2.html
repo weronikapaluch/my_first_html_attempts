@@ -50,10 +50,12 @@
         </script>
     </div>
 
-    document.getElementById("myBtn").onclick = function() {myFunction()};
+        <button onclick="myFunction()">Copy Text</button>
 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+        function myFunction() {
+        document.getElementById("field2").value =   document.getElementById("field1").value;
+        }
+        </script>
+
     </body>
 </html>
